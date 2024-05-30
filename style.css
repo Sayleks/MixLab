@@ -10,7 +10,8 @@ body {
   font-style: normal;
   font-weight: 400;
   /* text-align: start; */
-  line-height: 22.72px; /* 142% */
+  line-height: 22.72px;
+  /* 142% */
   transition: background-color 0.3s ease;
 }
 
@@ -26,7 +27,8 @@ main {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 20px; /* Расстояние от верхней части страницы до элемента после прокрутки */
+  scroll-padding-top: 20px;
+  /* Расстояние от верхней части страницы до элемента после прокрутки */
 }
 
 @font-face {
@@ -60,6 +62,22 @@ html {
   padding-bottom: 7px;
 }
 
+.change-lang {
+  position: fixed;
+  right: 0;
+  top: 60px;
+}
+
+header-section.light-theme {
+  background-color: white;
+  color: #000000;
+}
+
+header-section.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
 .flex-box-between {
   display: flex;
   justify-content: space-between;
@@ -81,7 +99,8 @@ html {
   text-decoration: none;
   color: #000;
   font-size: 14px;
-  line-height: 18.2px; /* 130% */
+  line-height: 18.2px;
+  /* 130% */
 }
 
 .header-right-block {
@@ -94,7 +113,8 @@ html {
   text-decoration: none;
   color: #6f1eaa;
   font-size: 14px;
-  line-height: 18.2px; /* 130% */
+  line-height: 18.2px;
+  /* 130% */
 }
 
 .header-right-block button {
@@ -111,7 +131,8 @@ html {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 18.2px; /* 130% */
+  line-height: 18.2px;
+  /* 130% */
 }
 
 .header-anchors {
@@ -153,11 +174,9 @@ html {
   margin: 0 15px;
   max-width: 565px;
   padding-top: 102px;
-  font-size: clamp(
-    26px,
-    calc(26px + 29 * ((100vw - 320px) / (1440 - 320))),
-    55px
-  );
+  font-size: clamp(26px,
+      calc(26px + 29 * ((100vw - 320px) / (1440 - 320))),
+      55px);
 }
 
 .section-first-container h1 {
@@ -169,7 +188,8 @@ html {
   font-size: 1em;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.21em; /* 121.818% */
+  line-height: 1.21em;
+  /* 121.818% */
 }
 
 .section-first-container p {
@@ -181,7 +201,8 @@ html {
   font-size: clamp(14px, 0.363636em, 20px);
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
+  /* 140% */
   max-width: 491px;
 }
 
@@ -207,7 +228,8 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 19px; /* 118.75% */
+  line-height: 19px;
+  /* 118.75% */
 }
 
 .section-second {
@@ -221,11 +243,9 @@ html {
 
 .second-container-left {
   max-width: 527px;
-  font-size: clamp(
-    20px,
-    calc(20px + 24 * ((100vw - 320px) / (1440 - 320))),
-    44px
-  );
+  font-size: clamp(20px,
+      calc(20px + 24 * ((100vw - 320px) / (1440 - 320))),
+      44px);
 }
 
 .second-container-left h2 {
@@ -235,7 +255,8 @@ html {
   font-size: 1em;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.2em; /* 120.455% */
+  line-height: 1.2em;
+  /* 120.455% */
   margin-bottom: 0.613em;
 }
 
@@ -257,7 +278,8 @@ html {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 31.68px; /* 132% */
+  line-height: 31.68px;
+  /* 132% */
 }
 
 #second-container-right-first-text {
@@ -304,7 +326,8 @@ html {
   font-size: 44px;
   font-style: normal;
   font-weight: 400;
-  line-height: 53px; /* 120.455% */
+  line-height: 53px;
+  /* 120.455% */
 }
 
 #section-thrid {
@@ -327,6 +350,7 @@ html {
 .section-four-img-container {
   max-width: 562px;
 }
+
 .section-four-container img {
   width: 100%;
   height: auto;
@@ -340,7 +364,8 @@ html {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 31.68px; /* 132% */
+  line-height: 31.68px;
+  /* 132% */
   margin-bottom: 11px;
 }
 
@@ -351,7 +376,8 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22.72px; /* 142% */
+  line-height: 22.72px;
+  /* 142% */
   max-width: 357px;
   margin: 0 auto;
 }
@@ -378,17 +404,16 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 19px; /* 118.75% */
+  line-height: 19px;
+  /* 118.75% */
 }
 
 .section-four-container {
   max-width: 1140px;
   margin: 0 auto;
-  font-size: clamp(
-    20px,
-    calc(20px + 24 * ((100vw - 320px) / (1440 - 320))),
-    44px
-  );
+  font-size: clamp(20px,
+      calc(20px + 24 * ((100vw - 320px) / (1440 - 320))),
+      44px);
 }
 
 .section-four {
@@ -411,7 +436,8 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 22.4px; /* 140% */
+  line-height: 22.4px;
+  /* 140% */
   letter-spacing: 0.96px;
   text-transform: uppercase;
   margin-bottom: 9px;
@@ -442,7 +468,8 @@ html {
   font-size: clamp(12px, 0.363636em, 16px);
   font-style: normal;
   font-weight: 400;
-  line-height: 22.72px; /* 142% */
+  line-height: 22.72px;
+  /* 142% */
   text-align: start;
   margin-bottom: 26px;
 }
@@ -453,7 +480,8 @@ html {
   font-size: 1em;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.2em; /* 120.455% */
+  line-height: 1.2em;
+  /* 120.455% */
   margin-bottom: 0.977272727em;
   text-align: start;
 }
@@ -475,7 +503,8 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 19px; /* 118.75% */
+  line-height: 19px;
+  /* 118.75% */
 }
 
 .section-five {
@@ -490,7 +519,8 @@ html {
   font-size: 43px;
   font-style: normal;
   font-weight: 700;
-  line-height: 53px; /* 123.256% */
+  line-height: 53px;
+  /* 123.256% */
   margin-bottom: 24px;
 }
 
@@ -501,7 +531,8 @@ html {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 33px; /* 165% */
+  line-height: 33px;
+  /* 165% */
   margin-bottom: 27px;
 }
 
@@ -568,7 +599,8 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25.6px; /* 160% */
+  line-height: 25.6px;
+  /* 160% */
   margin-bottom: 8px;
   /* flex-shrink: 50; */
 }
@@ -601,7 +633,8 @@ html {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 33px; /* 165% */
+  line-height: 33px;
+  /* 165% */
 }
 
 .section-six {
@@ -614,6 +647,7 @@ html {
   top: 313px;
   left: 0px;
 }
+
 .six-img-ablsolute-second {
   position: absolute;
   top: 452px;
@@ -638,7 +672,8 @@ html {
   font-size: 44px;
   font-style: normal;
   font-weight: 400;
-  line-height: 53px; /* 120.455% */
+  line-height: 53px;
+  /* 120.455% */
   margin-bottom: 30px;
 }
 
@@ -651,7 +686,8 @@ html {
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
-  line-height: 22.72px; /* 174.769% */
+  line-height: 22.72px;
+  /* 174.769% */
   margin-bottom: 76px;
 }
 
@@ -668,7 +704,8 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px; /* 118.75% */
+  line-height: 19px;
+  /* 118.75% */
   position: absolute;
   bottom: 33px;
   left: 36px;
@@ -681,7 +718,8 @@ html {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 31.68px; /* 132% */
+  line-height: 31.68px;
+  /* 132% */
   margin-bottom: 15px;
 }
 
@@ -701,7 +739,8 @@ html {
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22.72px; /* 206.545% */
+  line-height: 22.72px;
+  /* 206.545% */
   /* max-width: 260px; */
 }
 
@@ -720,7 +759,8 @@ html {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22.72px; /* 151.467% */
+  line-height: 22.72px;
+  /* 151.467% */
   margin-bottom: 15px;
 }
 
@@ -738,7 +778,8 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 19px; /* 118.75% */
+  line-height: 19px;
+  /* 118.75% */
 }
 
 .section-seven {
@@ -776,7 +817,8 @@ html {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
+  line-height: 14px;
+  /* 116.667% */
   letter-spacing: 0.6px;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -801,7 +843,8 @@ html {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18.2px; /* 130% */
+  line-height: 18.2px;
+  /* 130% */
 }
 
 .footer-containre-div span a span {
@@ -811,7 +854,8 @@ html {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18.2px; /* 130% */
+  line-height: 18.2px;
+  /* 130% */
 }
 
 .footer-containre-div span {
@@ -825,7 +869,8 @@ html {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18.2px; /* 130% */
+  line-height: 18.2px;
+  /* 130% */
   margin-bottom: 15px;
 }
 
@@ -930,6 +975,7 @@ html {
   bottom: 35%;
   transform: translateX(-50%);
 }
+
 .blackOver-two-button {
   display: block;
   border: none;
@@ -1011,9 +1057,11 @@ html {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(0.8);
   }
+
   100% {
     transform: scale(1);
   }
@@ -1029,22 +1077,22 @@ html {
   0% {
     transform: translateX(0);
   }
+
   25% {
     transform: translateY(5px);
   }
+
   50% {
     transform: translateY(0);
   }
+
   75% {
     transform: translateY(5px);
   }
+
   100% {
     transform: translateY(0);
   }
-}
-.dark-theme{
-  background-color: #000;
-  color: white;
 }
 
 .header-section img {
@@ -1067,9 +1115,11 @@ html {
   0% {
     filter: blur(0px);
   }
+
   30% {
     filter: blur(5px);
   }
+
   100% {
     filter: blur(0px);
   }
@@ -1085,9 +1135,11 @@ html {
   0% {
     background-color: red;
   }
+
   50% {
     background-color: #6f1eaa;
   }
+
   100% {
     background-color: red;
   }
@@ -1099,6 +1151,7 @@ html {
   0% {
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   }
+
   100% {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
@@ -1115,9 +1168,11 @@ html {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -1148,3 +1203,85 @@ html {
 .header-right-block a:hover {
   animation: rotate 2s linear infinite;
 }
+
+
+
+/* body {
+  background: black
+}
+
+.second-container-left h2 {
+  color: white;
+}
+
+.header-left-links ul li a {
+  color: white;
+}
+
+.second-container-right p {
+  color: white;
+}
+
+.section-five-container h2 {
+  color: white;
+}
+
+p.section-five-text {
+  color: white;
+}
+
+.section-six {
+  background: black;
+}
+
+.section-six-container-inner h2 {
+  color: white;
+}
+
+.section-six-inner-text {
+  color: white;
+}
+
+.section-thrid-container {
+  background: black;
+}
+
+#section-thrid {
+  background: black;
+}
+
+.section-thrid-card p {
+  color: white;
+}
+
+.section-thrid-container h2 {
+  color: white;
+}
+
+.section-four {
+  background: black;
+}
+
+.section-four-right-container h2 {
+  color: white;
+}
+
+.section-four-right-container-text {
+  color: white;
+}
+
+.section-first {
+  background: black;
+}
+
+.section-first-container h1 {
+  color: white;
+}
+
+.header-left-links.open .header-links {
+  background: black;
+}
+
+.section-first-container p {
+  color: white;
+} */

@@ -70,31 +70,26 @@ for (let anchor of anchors) {
   });
 }
 
-// const swiper = new Swiper(".img-slider", {
-//   navigation: {
-//     nextEl: ".main-button-left",
-//     prevEl: ".main-button-right",
-//   },
+const swiper = new Swiper(".img-slider", {
+  navigation: {
+    nextEl: ".main-button-left",
+    prevEl: ".main-button-right",
+  },
 
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 
-//   // slidesPerView: 2,
-//   spaceBetween: 11,
-//   slidesPerView: 1.2, // this
-//   centeredSlides: true,
-//   initialSlides: 1,
-//   loop: true,
-// });
+  // slidesPerView: 2,
+  spaceBetween: 11,
+  slidesPerView: 1.2, // this
+  centeredSlides: true,
+  initialSlides: 1,
+  loop: true,
+});
 
-console.log(document.getElementById("theme-button"));
 
-document.getElementById("theme-button").onclick = function(e){
-  console.log("Click");
-  document.getElementById("body").classList.toggle("dark-theme")
-  document.querySelector(".header-links li a").classList.toggle("dark-theme")
 
-}
+
 

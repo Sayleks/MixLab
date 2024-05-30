@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="style.css" id="theme-link" >
     <link rel="stylesheet" href="media.css" />
+    
+  
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+
     <script defer src="script.js"></script>
     <title>Cursach</title>
     <link
@@ -23,15 +27,15 @@
             <span></span>
             <span></span>
           </button>
-          <ul class="flex-box-between header-links">
-            <li><a href="">Veterinarians</a></li>
-            <li><a href="">How it works</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Shop</a></li>
+          <ul  class="flex-box-between header-links">
+            <li ><a class="lng-veterinarians" href="">Veterinarians</a></li>
+            <li><a class="lng-How" href="">How it works</a></li>
+            <li><a class="lng-About" href="/aboutus/aboutus.html">About us</a></li>
+            <li><a class="lng-Blog" href="">Blog</a></li>
+            <li><a class="lng-Shop" href="">Shop</a></li>
             <div class="header-anchors">
               <li>
-                <a href="#How-it-works">How it works</a>
+                <a class="lng-how-it" href="#How-it-works">How it works</a>
               </li>
               <li>
                 <a href="#Pets">Pets</a>
@@ -44,18 +48,24 @@
         </div>
         <img src="img/logo.svg" alt="" />
         <div class="header-right-block flex-box-between">
-          <a href="">Veterinarian login</a>
-          <button><span>Try Mixlab</span></button>
+          <a class="lng-veterinarian-login" href="registration/registration.html">Veterinarian login</a>
+          <button><span class="lng-Try">Try Mixlab</span></button>
+          
         </div>
+        <select class="change-lang">
+          <option value="ru" selected>RU</option>
+          <option value="en">EN</option>
+      </select>
         <button id="theme-button">T</button>
+        
       </section>
       
     </header>
 
     <main>
-      <section class="section-first">
-        <div class="section-first-container">
-          <h1>The pet pharmacy humans are jealous of.</h1>
+      <section id="section-first" class="section-first">
+        <div id="section-first-container" class="section-first-container"h1>
+          <h1 class="lng-pet-pharmacy">The pet pharmacy humans are jealous of.</h1>
           <p>
             5 stars on <span>Yelp, Google</span> and
             <span>Facebook</span> because your best friend deserves only the
@@ -70,23 +80,23 @@
 
       <section class="section-second section-container">
         <div class="section-second-container flex-box-between">
-          <div class="second-container-left">
-            <h2>
+          <div id="second-container-left" class="second-container-left">
+            <h2 class="lng-We-couldn’t">
               We couldn’t find a pharmacy experience worthy of our best buds— so
               we created one.
             </h2>
             <img src="img/section-second-dog.png" alt="" />
           </div>
           <div class="second-container-right">
-            <h3>Patients first, always</h3>
-            <p id="second-container-right-first-text">
+            <h3 class="lng-patients">Patients first, always</h3>
+            <p class="lng-second-first" id="second-container-right-first-text">
               We know how stressful it can be when your pet needs meds. That’s
               why we offer free next-day delivery and even do same-day in NYC
               and LA. We got you.
             </p>
             <div class="second-container-right-line"></div>
-            <h3>Tailored care</h3>
-            <p id="second-container-right-second-text">
+            <h3 class="lng-Tailored">Tailored care</h3>
+            <p class="lng-second-second" id="second-container-right-second-text">
               We’ll work with you and your veterinarian to find the very best
               solution for your pet. With our custom compounded options, we can
               change the dosage, flavor and form. We even have a flavor
@@ -96,8 +106,8 @@
               P.S. Everyone seems to love the chicken-flavored chew treats!
             </p>
             <div class="second-container-right-line"></div>
-            <h3>Support, 7 days a week</h3>
-            <p id="second-container-right-last-text">
+            <h3 class="lng-support">Support, 7 days a week</h3>
+            <p class="lng-second-last" id="second-container-right-last-text">
               You’re not alone. Text, call, or email us 7 days a week—we’ll
               answer and do our best to sprinkle in a bit of sunshine. ☀️
             </p>
@@ -106,48 +116,48 @@
       </section>
 
       <section class="section-container" id="section-thrid">
-        <div id="How-it-works" class="section-thrid-container">
-          <h2>How it works</h2>
+        <div id="How-it-works" class="section-thrid-container" >
+          <h2 class="lng-how-it-works" >How it works</h2>
           <div id="section-thrid-card-container" class="flex-box-between">
             <div class="section-thrid-card">
               <img src="img/card-bird.svg" alt="" />
-              <h4>We receive your prescription</h4>
-              <p>
+              <h4 class="lng-we-receive">We receive your prescription</h4>
+              <p class="lng-either">
                 Either your veterinarian sends us a prescription or we reach out
                 to them for you. Whatever is easiest!
               </p>
             </div>
             <div class="section-thrid-card">
               <img src="img/card-rabit.svg" alt="" />
-              <h4>We deliver your care package</h4>
-              <p>
+              <h4 class="lng-we-deliver">We deliver your care package</h4>
+              <p class="lng-fast">
                 Fast and free next-day delivery? straight to your door. Same-day
                 in NYC and LA.
               </p>
             </div>
             <div class="section-thrid-card">
               <img src="img/card-dog.svg" alt="" />
-              <h4>You treat your pet</h4>
-              <p>
+              <h4 class="lng-you-treat">You treat your pet</h4>
+              <p class="lng-Give-your">
                 Give your pet the care they need to feel better. Plus they can
                 play with our included toy!
               </p>
             </div>
           </div>
-          <button id="section-thrid-button"><span>Learn More</span></button>
+          <button id="section-thrid-button"><span class="lng-learn-more" >Learn More</span></button>
         </div>
       </section>
 
-      <section class="section-four">
+      <section id="section-four" class="section-four">
         <div class="section-container">
           <div class="section-four-container flex-box-between">
             <div id="section-four-img-container">
               <img src="img/four-img.svg" alt="" />
             </div>
             <div class="section-four-right-container">
-              <p class="section-four-right-container-teg">For Veterinarians</p>
-              <h2>We're here to support you and your practice</h2>
-              <p class="section-four-right-container-text">
+              <p class="section-four-right-container-teg lng-four-teg">For Veterinarians</p>
+              <h2 class="lng-were-here">We're here to support you and your practice</h2>
+              <p class="section-four-right-container-text lng-mixlab-offer">
                 Mixlab offers a simple, fast, reliable (and fun) home delivery
                 pharmacy service for your clients. No more delays, no more
                 miscommunications, no more grumpy pets. It’s time to partner
@@ -164,10 +174,10 @@
 
       <section class="section-five">
         <div id="Pets" class="section-five-container">
-          <h2>Pets love Mixlab!</h2>
+          <h2 class="lng-pets-love">Pets love Mixlab!</h2>
           <p class="section-five-text">
             See why we're 5 stars on <span>Yelp</span>, <span>Google</span> and
-            <span>Facebook</span>:)
+            <span>Facebook</span>:
           </p>
           <img id="heart" src="img/heart.svg" alt="" />
 
@@ -180,7 +190,7 @@
                       <img src="img/slider-first-img.png" alt="" />
                     </div>
                     <div class="section-five-card-container-right">
-                      <p id="section-five-main-text">
+                      <p class="lng-tootsie" id="section-five-main-text">
                         “Tootsie just received her Mixlab order and she’s so
                         excited for it! Within two hours of ordering it got
                         delivered to the house and its like she knew it was at
@@ -206,7 +216,7 @@
                       <img src="img/slider-two.png" alt="" />
                     </div>
                     <div class="section-five-card-container-right">
-                      <p id="section-five-main-text">
+                      <p class="lng-mizu" id="section-five-main-text">
                         As Mizu heals from her broken arm, she needs to be given
                         meds 6 times a day! Needless to say, getting that much
                         medication in her has been very difficult. BUT thanks to
@@ -238,7 +248,7 @@
                       <img src="img/slider-thrid.png" alt="" />
                     </div>
                     <div class="section-five-card-container-right">
-                      <p id="section-five-main-text">
+                      <p class="lng-olive" id="section-five-main-text">
                         I wish I could give Mixlab ten stars! Their customer
                         service is beyond outstanding. They send a text update
                         to let me know when they've received a prescription from
@@ -265,11 +275,11 @@
         </div>
       </section>
 
-      <section class="section-six">
+      <section id="section-six" class="section-six">
         <div class="section-six-container">
           <div class="section-six-container-inner">
-            <h2>In the Wild</h2>
-            <p class="section-six-inner-text">
+            <h2 class="lng-wild">In the Wild</h2>
+            <p class="section-six-inner-text lng-the-wild">
               In The Wild is a collection of pieces to help close the
               communication gap, while growing the love (and understanding)
               between you and your best pal.
@@ -279,23 +289,23 @@
                 <img src="img/six-container-img.png" alt="" />
                 <div class="section-six-inner-container-text">
                   <p class="section-six-date">May 3, 2021</p>
-                  <h3>What is compounding?</h3>
-                  <p class="section-six-main-text">
+                  <h3 class="lng-is-compounding">What is compounding?</h3>
+                  <p class="section-six-main-text lng-compounding">
                     Compounding is the art and science of preparing personalized
                     medications.
                   </p>
-                  <a class="section-six-article">Read the article</a>
+                  <a class="section-six-article lng-article">Read the article</a>
                 </div>
               </div>
               <div class="section-six-card">
                 <img src="img/six-container-img-second.png" alt="" />
                 <div class="section-six-inner-container-text">
                   <p class="section-six-date">June 15, 2021</p>
-                  <h3>Anxiety in Pets</h3>
-                  <p class="section-six-main-text">
+                  <h3 class="lng-anxiety">Anxiety in Pets</h3>
+                  <p class="section-six-main-text lng-interview">
                     An interview with a top behavioral specialist in NYC.
                   </p>
-                  <a class="section-six-article">Read the article</a>
+                  <a class="section-six-article lng-article-read">Read the article</a>
                 </div>
               </div>
             </div>
@@ -347,7 +357,7 @@
               <li><a href="">Veterinarians</a></li>
               <li><a href="">Products</a></li>
               <li><a href="">How it Works</a></li>
-              <li><a href="">About us</a></li>
+              <li><a href="../aboutus/aboutus.html">About us</a></li>
               <li><a href="">Blog</a></li>
               <li><a href="">Shop</a></li>
               <li><a href="">Careers</a></li>
@@ -432,5 +442,10 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="theme-switcher2.js"></script>
+    <script src="lang.js"></script>
+    <script src="lang-switcher2.js"></script>
+    
+
   </body>
 </html>

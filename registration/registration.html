@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affiliate</title>
+  <link rel="icon" href="../img/" type="image/x-icon">
+  <link rel="stylesheet" href="registration.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style.css" id="theme-link">
+</head>
+<body>
+  <header>    
+    <div class="header-container registration">
+      <a href="../index.html">
+        <img  src="../img/logo.svg"alt="logo" class="affiliate-logo">
+      </a>
+      <select class="change-lang">
+        <option value="ru" selected>RU</option>
+        <option value="en">EN</option>
+    </select>
+      <button class="reg-theme" id="theme-button">Theme</button>
+    </div>
+  </header>    
+  <main>
+    
+    <section class="sign-in">
+          
+      <h2 class="lng-sign-in">Sign in</h2>    
+      <form action="">
+        
+        <div>
+          
+          <label for="login" id="login-in-label"><a class="lng-login" >Login</a> <span>*</span></label>
+          <input type="text" name="login" id="login" required>
+        </div>
+        <div>
+          <label for="password" id="password-in-label"><a class="lng-pass" >Password</a> <span>*</span></label>
+          <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+          <button type="button" class="hidden" id="sign-in-send"><a class="lng-signin" >Sign in</a></button>
+          <button type="button" id="sign-up-button"><a class="lng-create-new" >Create new account</a></button>
+        </div>
+      </form>       
+    </section>      
+    <section class="sign-up hidden">
+      <h2 class="lng-signup">Sign up</h2>    
+      <form action="">
+        <div>
+          <label for="phone" id="phone-label"><a class="lng-phone" >Phone</a><span>*</span></label>
+          <input type="number" name="phone" id="phone" required>
+        </div>
+        <div>
+          <label for="email" id="email-label"><a lng-email >Email</a> <span>*</span></label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+          <label for="birth-date" id="birthday-label"><a class="lng-birth" >Birth date</a> <span>*</span></label>
+          <input type="date" name="birth-date" id="birth-date" required>
+        </div>
+        <div>
+          <label for="name" id="name-label"><a class="lng-name" >Name</a> <span>*</span></label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+          <label for="surname" id="surname-label"><a class="lng-surname" >Surname</a> <span>*</span></label>
+          <input type="text" name="surname" id="surname" required>
+        </div>
+        <div>
+          <label for="patronymic"> <a class="lng-patr" >Patronymic</a></label>
+          <input type="text" name="patronymic" id="patronymic" optional>
+        </div>        
+        <div>
+          <label for="create-login" id="login-up-label"><a class="lng-login-r" >Login</a> <span>*</span></label>
+          <input type="text" name="create-login" id="create-login" optional>
+          <button class="lng-gen-log" type="button" id="generate-login-button">Generate login</button>
+        </div>
+        <div>
+          <label for="create-password" id="password-up-label"> <a class="lng-pass-r" >Password</a> <span>*</span></label>
+          <input type="password" name="create-password" id="create-password" required>
+          <button type="button" id="visible-password-button">👁</button>
+          <button class="lng-gen-pass" type="button" id="generate-password-button">Generate password</button>
+        </div>
+        <div>
+          <label for="confirm-password" id="confirm-password-label"><a class="lng-con-pass" >Confirm password</a> <span>*</span></label>
+          <input type="password" name="confirm-password" id="confirm-password" required>
+        </div>
+        <div>
+          <label for="terms-of-use" id="terms-of-use-label"><a class="lng-i-agree" >I read and agree with</a> <a class="lng-term-reg" href="#">terms of use</a> <span>*</span></label>
+          <input type="checkbox" name="terms-of-use" id="terms-of-use" required>
+        </div>
+        <div>
+          <button type="button" class="hidden" id="sign-up-send"><a class="lng" >Sign up</a></button>
+          <button class="lng-login-as" type="button" id="sign-in-button">Login as existing account</button>
+        </div>
+      </form>             
+    </section> 
+    
+    <footer id="Information" class="footer">
+      <div class="section-container">
+        <div class="footer-containre flex-box-between">
+          <div class="footer-containre-div">
+            <p>Information</p>
+            <ul>
+              <li>
+              </li>
+              <li><a href="tel: +23423424">our telephone</a></li>
+            </ul>
+          </div>
+          <div class="footer-containre-div">
+            <p>Quick Links</p>
+            <ul>
+              <li><a href="">Veterinarians</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">How it Works</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Veterinarian login</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="footer-containre-div">
+            <p>Call or Text</p>
+            <span
+              ><a href="tel: (888) 901-4480"
+                ><span>(888) 901-4480</span></a
+              ></span
+            >
+            <p>Email</p>
+            <span
+              ><a href="mailto: hello@mixlabrx.com"
+                ><span>hello@mixlabrx.com</span></a
+              >
+            </span>
+            <p>Fax</p>
+            <span
+              ><a href="tel: (212) 967-0892"
+                ><span>(212) 967-0892</span></a
+              ></span
+            >
+          </div>
+          <div class="footer-containre-div">
+            <p>New York City</p>
+            <span class="footer-location"
+              >336 West 37th St<br />Suite 850<br />New York, NY 10018</span
+            >
+            <span class="footer-location"
+              >Mon-Sat 10am - 8pm ET<br />Sun 10am - 2pm ET</span
+            >
+          </div>
+          <div class="footer-containre-div">
+            <p>Los Angeles</p>
+            <span class="footer-location"
+              >2223 Federal Ave<br />Los Angeles, CA 90064</span
+            >
+            <span class="footer-location"
+              >Mon-Sat 9am - 7pm PT<br />Sun 9am - 1pm PT</span
+            >
+          </div>
+          <div class="footer-containre-div">
+            <p>Social</p>
+            <div class="footer-logo-container">
+              <div class="container-logo">
+                <img src="../img/footer-insta.png" alt="" />
+              </div>
+              <div class="container-logo">
+                <img src="../img/footer-facebok.png" alt="" />
+              </div>
+              <div class="container-logo">
+                <img src="../img/footer-x.png" alt="" />
+              </div>
+              <div class="container-logo">
+                <img src="../img/footer-xz.png" alt="" />
+              </div>
+              <div class="container-logo">
+                <img src="../img/footer-google.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        </div>
+      </div>
+    </footer>
+    
+  </main>
+  <script src="registration.js" type="module"></script>
+   <script src="../theme-switcher2.js"></script>
+    <script src="../lang.js"></script>
+    <script src="../lang-switcher2.js"></script>
+  
+</body>
+</html>
