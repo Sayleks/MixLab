@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Roboto-regular, Roboto;
+    src: local("Roboto"), url(../fonts/Roboto-regular.ttf) format("ttf"),
+      url(../fonts/Roboto-regular.woff) format("woff");
+    font-style: normal;
+    font-display: swap;
+  }
+.faqs{font-size: 3em;margin-bottom: 5%;}
+.faqs-qest-one{
+    font-size: 2em;
+   text-align: left;
+   
+}
+.faqs-qest-two{
+
+    font-size: 2em;
+    text-align: left;
+    margin-top: 20px;
+}
+.faqs-qest-thre{
+
+    font-size: 2em;
+    text-align: left;
+    margin-top: 20px;
+}
+.paw{max-width: 2rem;}

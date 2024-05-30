@@ -235,6 +235,79 @@ const langArr = {
     "login-as": {
         "ru": "Войти в существующий аккаунт",
         "en": "Login as existing account",
-    },      
+    },  
+        // блог
+        "blog-title-1": {
+            "ru": "Безопасность домашних животных: защитите своих пушистых друзей",
+            "en": "Pet Safety: Protecting Your Furry Friends",
+        },
+        "blog-date-1": {
+            "ru": "6 июля 2024 г.",
+            "en": "January 6, 2024",
+        },
+        "blog-text-1": {
+            "ru": "Обеспечение безопасности ваших питомцев имеет первостепенное значение. От бытовых опасностей до сезонных опасностей — существуют различные риски, о которых должны знать владельцы домашних животных. В этом посте мы освещаем основные меры безопасности домашних животных, включая защиту вашего дома от домашних животных, выявление токсичных веществ, предотвращение несчастных случаев и обеспечение благополучия вашего питомца во время путешествия. Узнайте, как создать безопасную среду для своих пушистых друзей.",
+            "en": "Keeping your pets safe is of utmost importance. From household hazards to seasonal dangers, there are various risks that pet owners should be aware of. In this post, we highlight essential pet safety measures, including pet-proofing your home, identifying toxic substances, preventing accidents, and ensuring your pet's well-being during travel. Learn how to create a safe environment for your furry friends.",
+        },
+        "blog-title-2": {
+            "ru": "Стареющий питомец: уход и комфорт для пожилых людей",
+            "en": "The Aging Pet: Senior Care and Comfort",
+        },
+        "blog-date-2": {
+            "ru": "15 августа 2024 г.",
+            "en": "August 15, 2024",
+        },
+        "blog-text-2": {
+            "ru": "По мере того, как наши питомцы стареют, их потребности меняются. Пожилые домашние животные требуют специального ухода и внимания для обеспечения их комфорта и качества жизни. В этом посте мы обсуждаем проблемы, с которыми сталкиваются стареющие домашние животные, и предлагаем практические советы по решению распространенных возрастных проблем, таких как артрит, снижение когнитивных функций и контроль веса. Узнайте, как обеспечить своему пожилому питомцу полноценную и комфортную жизнь.",
+            "en": "As our pets age, their needs change. Senior pets require specialized care and attention to ensure their comfort and quality of life. In this post, we discuss the challenges faced by aging pets and offer practical tips on managing common age-related issues such as arthritis, cognitive decline, and weight management. Discover how to provide your senior pet with a fulfilling and comfortable life.",
+        },
+        "blog-title-3": {
+            "ru": "Питание: повышение жизненных сил вашего питомца",
+            "en": "Nutrition: Fueling Your Pet's Vitality",
+        },
+        "blog-date-3": {
+            "ru": "28 сентября 2024 г.",
+            "en": "September 28, 2024",
+        },
+        "blog-text-3": {
+            "ru": "Правильное питание – залог благополучия вашего питомца. В этом посте мы углубляемся в мир питания домашних животных, изучая важность сбалансированного рациона, контроля порций и роль конкретных питательных веществ на разных этапах жизни. Если у вас есть собака, кошка или экзотическое домашнее животное, узнайте, как обеспечить им оптимальное питание, чтобы поддержать их жизненные силы и общее состояние здоровья.",
+            "en": "Proper nutrition is the cornerstone of your pet's well-being. In this post, we delve into the world of pet nutrition, exploring the importance of balanced diets, portion control, and the role of specific nutrients for different life stages. Whether you have a dog, cat, or exotic pet, learn how to provide them with optimal nutrition to support their vitality and overall health.",
+        },
+        "blog-title-4": {
+            "ru": "Важность регулярных осмотров: профилактическая помощь для долгосрочного здоровья",
+            "en": "The Importance of Regular Check-ups: Preventive Care for Long-Term Health",
+        },
+        "blog-date-4": {
+            "ru": "29 ноября 2024 г.",
+            "en": "November 29, 2024",
+        },
+        "blog-text-4": {
+            "ru": "Профилактика является ключевым моментом, когда дело касается здоровья вашего питомца. Регулярные ветеринарные осмотры играют жизненно важную роль в выявлении и решении потенциальных проблем со здоровьем до того, как они обострятся. В этом посте мы подчеркиваем важность профилактического ухода, включая вакцинацию, борьбу с паразитами, гигиену полости рта и общее медицинское обследование. Узнайте, почему активная ветеринарная помощь необходима для долгосрочного здоровья и счастья вашего питомца.",
+            "en": "Prevention is key when it comes to your pet's health. Regular veterinary check-ups play a vital role in detecting and addressing potential health issues before they escalate. In this post, we emphasize the significance of preventive care, including vaccinations, parasite control, dental hygiene, and overall wellness examinations. Discover why proactive veterinary care is essential for your pet's long-term health and happiness.",
+        },
+        "blog-title-5": {
+            "ru": "Здоровый старт: уход за щенками и котятами",
+            "en": "A Healthy Start: Puppy and Kitten Care",
+        },
+        "blog-date-5": {
+            "ru": "22 декабря 2024 г.",
+            "en": "December 22, 2024",
+        },
+        "blog-text-5": {
+            "ru": "Принести домой нового щенка или котенка – волнительное и радостное событие. Однако очень важно с самого начала заложить основу для их здоровья и благополучия. В этом посте мы познакомим вас с основными аспектами ухода за щенками и котятами, включая вакцинацию, питание, социализацию и дрессировку. Узнайте, как дать своим молодым питомцам наилучшее начало жизни.",
+            "en": "Bringing home a new puppy or kitten is an exciting and joyous experience. However, it's essential to lay the foundation for their health and well-being from the start. In this post, we'll guide you through the essential aspects of puppy and kitten care, including vaccinations, nutrition, socialization, and training. Learn how to give your young pets the best possible start in life.",
+        },
+        "blog-title-6": {
+            "ru": "Представляем нашу клинику: приют для ваших питомцев",
+            "en": "Introducing Our Clinic: A Haven for Your Pets",
+        },
+        "blog-date-6": {
+            "ru": "4 февраля 2025 г.",
+            "en": "February 4, 2025",
+        },
+        "blog-text-6": {
+            "ru": "Мы рады представить вам нашу современную ветеринарную клинику, где мы стремимся обеспечить первоклассный уход за вашими пушистыми питомцами. В этом посте вы познакомитесь с нашими объектами, познакомитесь с нашей опытной командой ветеринаров и узнаете о комплексных услугах, которые мы предлагаем. Откройте для себя теплую и гостеприимную атмосферу, которую мы создали, чтобы обеспечить комфорт и счастье вашим питомцам.",
+            "en": "We are thrilled to introduce you to our state-of-the-art veterinary clinic, where we strive to provide top-notch care for your furry companions. In this post, you'll get a glimpse into our facilities, meet our experienced team of veterinarians, and learn about the comprehensive services we offer. Discover the warm and welcoming environment we've created to ensure the comfort and happiness of your pets.",
+        },   
 }
 
