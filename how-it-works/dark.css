@@ -1,0 +1,43 @@
+body{background:black}
+.second-container-left h2{color: white;} 
+.header-left-links ul li a{color: white;} 
+.second-container-right p {color: white;}
+.section-five-container h2 {color: white;}
+p.section-five-text {color: white;}
+.section-six {background:black;}
+.section-six-container-inner h2{color: white; }
+.section-six-inner-text {color: white; } 
+.section-thrid-container{background:black;}
+#section-thrid{background:black;}
+.section-thrid-card p{color: white; } 
+.section-thrid-container h2{color: white; } 
+.section-four{background:black;}
+.section-four-right-container h2 {color: white; } 
+.section-four-right-container-text{color: white; } 
+.section-first{background:black;}
+.section-first-container h1{color: white; } 
+.header-left-links.open .header-links {background:black;}
+.section-first-container p{color: white; } 
+/* регистрация */
+/* .sign-in{
+    background-color: gray;
+}
+section{
+    background-color: ;
+} */
+section label{
+    color: #ffffff;
+}
+.sign-up h2{
+    color: #ffffff;
+
+}
+.sign-in h2{
+    color: #ffffff;
+
+}
+.reg-theme{color: #ffffff;}
+/* блог */
+.logo-text{color: white;}
+.article_text{color: white;}
+.blog{color: white;}

@@ -1,4 +1,9 @@
+setGuestInLocalStorage();
+checkUser();
+
 // бургер меню
+
+
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("burger").addEventListener("click", function () {
     document.querySelector("div").classList.toggle("open");
@@ -88,6 +93,49 @@ const swiper = new Swiper(".img-slider", {
   initialSlides: 1,
   loop: true,
 });
+async function getCurrentUserData() {
+  try {
+      const data = localStorage.getItem('currUser');
+      if (!data) {
+          throw new Error('No data found in localStorage');
+      }
+      return data;
+  } catch (error) {
+      console.error('Error:', error);
+  }
+}
+
+async function setGuestInLocalStorage() {
+  let currUserData = await getCurrentUserData();
+  if (currUserData != null || currUserData != undefined) {
+      return;
+  }
+  localStorage.setItem('currUser', "guest");
+}
+//Чек пользователя
+function checkUser() {
+  const data = localStorage.getItem('currUser');
+  if (data == "user"){
+      document.querySelector(".section-six").classList.remove("hidden");
+      // document.querySelector(".pageour").classList.remove("hidden");
+      // document.querySelector(".pagecustomer").classList.add("hidden");
+       document.querySelector(".lng-veterinarian-login").classList.add("hidden");
+       document.querySelector(".lng-logout").classList.remove("hidden");
+  } else if (data == "admin"){
+      document.querySelector(".section-five").classList.remove("hidden");
+       document.querySelector(".section-six").classList.remove("hidden");
+      // document.querySelector(".pagecustomer").classList.remove("hidden");
+       document.querySelector(".lng-veterinarian-login").classList.add("hidden");
+       document.querySelector(".lng-logout").classList.remove("hidden");
+  } else {return;}
+}
+
+//логаут
+document.getElementById('exit').addEventListener('click', function () {
+  localStorage.setItem('currUser', "guest");
+  location.reload();
+});
+
 
 
 

@@ -29,7 +29,7 @@
           </button>
           <ul  class="flex-box-between header-links">
             <li ><a class="lng-veterinarians" href="">Veterinarians</a></li>
-            <li><a class="lng-How" href="">How it works</a></li>
+            <li><a class="lng-How" href="/how-it-works/how-it-works.html">How it works</a></li>
             <li><a class="lng-About" href="/aboutus/aboutus.html">About us</a></li>
             <li><a class="lng-Blog" href="/blog/blog.html">Blog</a></li>
             <li><a class="lng-Shop" href="">Shop</a></li>
@@ -48,6 +48,7 @@
         </div>
         <img src="img/logo.svg" alt="" />
         <div class="header-right-block flex-box-between">
+          <button class="lng-logout hidden" id="exit">LogOut</button>
           <a class="lng-veterinarian-login" href="registration/registration.html">Veterinarian login</a>
           <button><span class="lng-Try">Try Mixlab</span></button>
           
@@ -56,7 +57,7 @@
           <option value="ru" selected>RU</option>
           <option value="en">EN</option>
       </select>
-        <button id="theme-button">T</button>
+        <button class="theme-button" id="theme-button">Theme</button>
         
       </section>
       
@@ -72,7 +73,7 @@
             <span>Facebook</span> because your best friend deserves only the
             best in pet care.
           </p>
-          <button><span>Try Mixlab</span></button>
+          <button><span class="lng-Try">Try Mixlab</span></button>
         </div>
         <img id="section-1-left" src="img/section-1-left.png" alt="" />
         <img id="section-1-bottom" src="img/section-1-bottom.png" alt="" />
@@ -145,7 +146,7 @@
               </p>
             </div>
           </div>
-          <button id="section-thrid-button"><span class="lng-learn-more" >Learn More</span></button>
+          <a href="/how-it-works/how-it-works.html"><button id="section-thrid-button"><span class="lng-learn-more" >Learn More</span></button></a>
         </div>
       </section>
 
@@ -166,14 +167,14 @@
                 you do.
               </p>
               <button class="section-four-container-button2">
-                <span>Learn More</span>
+                <span class="lng-learn-more">Learn More</span>
               </button>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-five">
+      <section class="section-five hidden">
         <div id="Pets" class="section-five-container">
           <h2 class="lng-pets-love">Pets love Mixlab!</h2>
           <p class="section-five-text">
@@ -276,7 +277,7 @@
         </div>
       </section>
 
-      <section id="section-six" class="section-six">
+      <section id="section-six " class="section-six hidden">
         <div class="section-six-container">
           <div class="section-six-container-inner">
             <h2 class="lng-wild">In the Wild</h2>
@@ -355,14 +356,14 @@
           <div class="footer-containre-div">
             <p>Quick Links</p>
             <ul>
-              <li><a href="">Veterinarians</a></li>
+              <li><a class="lng-veterinarians" href="">Veterinarians</a></li>
               <li><a href="">Products</a></li>
-              <li><a href="">How it Works</a></li>
-              <li><a href="../aboutus/aboutus.html">About us</a></li>
-              <li><a href="blog/blog.html">Blog</a></li>
-              <li><a href="">Shop</a></li>
+              <li><a class="lng-How" href="">How it Works</a></li>
+              <li><a class="lng-About" href="../aboutus/aboutus.html">About us</a></li>
+              <li><a class="lng-Blog" href="blog/blog.html">Blog</a></li>
+              <li><a class="lng-Shop" href="">Shop</a></li>
               <li><a href="">Careers</a></li>
-              <li><a href="">Veterinarian login</a></li>
+              <li><a class="lng-veterinarian-login" href="">Veterinarian login</a></li>
               <li><a href="">Contact us</a></li>
             </ul>
           </div>

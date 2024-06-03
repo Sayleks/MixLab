@@ -48,6 +48,11 @@ html {
   margin: 0 15px;
   max-width: 1410px;
 } */
+.theme-button
+{    border-radius: 19px;
+  background: #6f1eaa;}
+
+  .theme-button:hover{cursor: pointer;}
 
 .header-section {
   max-width: 1220px;
@@ -1204,84 +1209,4 @@ header-section.dark-theme {
   animation: rotate 2s linear infinite;
 }
 
-
-
-/* body {
-  background: black
-}
-
-.second-container-left h2 {
-  color: white;
-}
-
-.header-left-links ul li a {
-  color: white;
-}
-
-.second-container-right p {
-  color: white;
-}
-
-.section-five-container h2 {
-  color: white;
-}
-
-p.section-five-text {
-  color: white;
-}
-
-.section-six {
-  background: black;
-}
-
-.section-six-container-inner h2 {
-  color: white;
-}
-
-.section-six-inner-text {
-  color: white;
-}
-
-.section-thrid-container {
-  background: black;
-}
-
-#section-thrid {
-  background: black;
-}
-
-.section-thrid-card p {
-  color: white;
-}
-
-.section-thrid-container h2 {
-  color: white;
-}
-
-.section-four {
-  background: black;
-}
-
-.section-four-right-container h2 {
-  color: white;
-}
-
-.section-four-right-container-text {
-  color: white;
-}
-
-.section-first {
-  background: black;
-}
-
-.section-first-container h1 {
-  color: white;
-}
-
-.header-left-links.open .header-links {
-  background: black;
-}
-
-.section-first-container p {
-  color: white;
-} */
+.hidden{display: none;}

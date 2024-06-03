@@ -65,7 +65,7 @@ async function setAdminInLocalStorage(){
     }
     const admin = {
         role: "admin",
-        login: "ilya",
+        login: "danik",
         password: 1111        
     }
     usersData = [admin];
@@ -123,6 +123,7 @@ signInForm.addEventListener('submit', async function(event) {
     }   
     if(numberOfUser != -1){
         alert('Hello, ' + roles[numberOfUser]);
+        localStorage.setItem('currUser', roles[numberOfUser]);
         signInForm.reset();
     } else {
         alert('Invalid login or password');
@@ -190,8 +191,8 @@ visiblePasswordButton.addEventListener('click', function(){
 });
 generateLoginButton.addEventListener('click', function(){
     if (ammountOfGeneratedLigins < 5) {
-        const adjectives = ['Cool', 'Crazy', 'Awesome', 'Fantastic', 'Epic'];
-        const nouns = ['Gamer', 'Ninja', 'Master', 'Champion', 'Wizard', 'Creator'];
+        const adjectives = ['Cool', 'Crazy', 'Awesome', 'Puper', 'Mega'];
+        const nouns = ['Gamer', 'Ninja', 'Master', 'Champion', 'Wizard', 'Peple'];
     
         const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];
         const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
