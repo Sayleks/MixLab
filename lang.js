@@ -4,6 +4,24 @@ const langArr = {
         "en": "The pet pharmacy humans are jealous of. ",
     
     }, 
+
+    "five-stars": {
+        "ru": "5 звёзд на",
+        "en": "5 stars on",
+    }, 
+    "and": {
+        "ru": "и",
+        "en": "and",
+    }, 
+    "logout": {
+        "ru": "Выход",
+        "en": "LogOut",
+    }, 
+    "because-your": {
+        "ru": "потому что ваш лучший друг заслуживает только лучшего ухода за домашними животными.",
+        "en": "because your best friend deserves only the best in pet care.",
+    },
+    
     "veterinarians": {
         "ru": "Ветеренары",
         "en": "veterinarians",

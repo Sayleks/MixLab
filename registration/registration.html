@@ -10,6 +10,23 @@
   <link rel="stylesheet" href="../style.css" id="theme-link">
 </head>
 <body>
+  <div class="modalBackground">
+    <div class="modalActive">
+        <div class="modalClose">
+          <button id="button-close" class="footer-button-close">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <div class="modalWindow">Регистрация и аккаунт: Пользователи должны быть старше 16 лет и предоставлять точную информацию при регистрации. <br>
+          Права интеллектуальной собственности: Запрещено копирование или использование материалов без разрешения правообладателя. <br>
+          Поведение пользователей: Запрещено распространение незаконного, оскорбительного или вредоносного контента. <br>
+          Ответственность: MixLab предоставляется "как есть", без гарантий. Пользователи несут ответственность за загружаемые ими материалы. <br>
+          Прекращение доступа: Администрация MixLab имеет право прекратить доступ при нарушении условий использования. <br>
+          Изменение условий использования: Условия могут быть изменены администрацией.</div>
+    </div>
+</div>
+
   <header>    
     <div class="header-container registration">
       <a href="../index.html">
@@ -87,7 +104,7 @@
           <input type="password" name="confirm-password" id="confirm-password" required>
         </div>
         <div>
-          <label for="terms-of-use" id="terms-of-use-label"><a class="lng-i-agree" >I read and agree with</a> <a class="lng-term-reg" href="#">terms of use</a> <span>*</span></label>
+          <label for="terms-of-use" id="terms-of-use-label"><a class="lng-i-agree " >I read and agree with</a> <a class="lng-term-reg trigger" href="#">terms of use</a> <span>*</span></label>
           <input type="checkbox" name="terms-of-use" id="terms-of-use" required>
         </div>
         <div>
@@ -96,6 +113,7 @@
         </div>
       </form>             
     </section> 
+    
     
     <footer id="Information" class="footer">
       <div class="section-container">
@@ -186,6 +204,7 @@
         </div>
       </div>
     </footer>
+    
     
   </main>
   <script src="registration.js" type="module"></script>

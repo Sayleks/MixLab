@@ -133,6 +133,8 @@ function checkUser() {
 //логаут
 document.getElementById('exit').addEventListener('click', function () {
   localStorage.setItem('currUser', "guest");
+  localStorage.setItem('theme', "");
+  localStorage.setItem('language', "en");
   location.reload();
 });
 
