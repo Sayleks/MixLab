@@ -67,9 +67,13 @@ const langArr = {
         "en": "Tailored care",
     },
     "second-second": {
-        "ru": "Мы будем работать с вами и вашим ветеринаром, чтобы найти самое лучшее решение для вашего питомца. Благодаря нашим индивидуальным рецептам мы можем изменить дозировку, вкус и форму. У нас даже есть гарантия вкуса с более чем 40 вариантами!PS: Кажется, всем нравятся жевательные лакомства со вкусом курицы!",
+        "ru": "Мы будем работать с вами и вашим ветеринаром, чтобы найти самое лучшее решение для вашего питомца. Благодаря нашим индивидуальным рецептам мы можем изменить дозировку, вкус и форму. У нас даже есть гарантия вкуса с более чем 40 вариантами!",
         "en": "We’ll work with you and your veterinarian to find the very bestsolution for your pet. With our custom compounded options, we canchange the dosage, flavor and form. We even have a flavorguarantee with over 40 options!",
     },
+    "Ps": {
+        "ru": "P.S. Похоже, всем нравятся жевательные лакомства со вкусом курицы!",
+        "en": "P.S. Everyone seems to love the chicken-flavored chew treats!",
+    }, 
     "support": {
         "ru": "Поддержка, 7 дней в неделю",
         "en": "Support, 7 days a week",
@@ -326,6 +330,11 @@ const langArr = {
         "blog-text-6": {
             "ru": "Мы рады представить вам нашу современную ветеринарную клинику, где мы стремимся обеспечить первоклассный уход за вашими пушистыми питомцами. В этом посте вы познакомитесь с нашими объектами, познакомитесь с нашей опытной командой ветеринаров и узнаете о комплексных услугах, которые мы предлагаем. Откройте для себя теплую и гостеприимную атмосферу, которую мы создали, чтобы обеспечить комфорт и счастье вашим питомцам.",
             "en": "We are thrilled to introduce you to our state-of-the-art veterinary clinic, where we strive to provide top-notch care for your furry companions. In this post, you'll get a glimpse into our facilities, meet our experienced team of veterinarians, and learn about the comprehensive services we offer. Discover the warm and welcoming environment we've created to ensure the comfort and happiness of your pets.",
-        },   
+        }, 
+        // How it works
+        "lng-faqs-1": {
+            "ru": "Рецепты и заказы",
+            "en": "Recipes and orders",
+        }, 
 }
 
